@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Batimento Cardíaco</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Instruções</string>
+    <string name="step_1">1. Coloque seu dedo sobre a lente da câmera. Tenha cuidado para não pressionar muito forte, pois isto pode obstruir o fluxo de sangue no seu dedo.</string>
+    <string name="step_2">2. Se seu celular não tiver um LED para iluminar, é importante que você use esse aplicativo em uma área bem iluminada.</string>
+    <string name="step_3">3. Mantenha seu dedo pressionando a lente da câmera enquanto o batimento do seu coração é medido.</string>
+    <string name="step_4">4. Peça a um amigo para lhe fazer algumas perguntas. Se você não disser a verdade, seu batimento cardíaco irá aumentar, indicando que você está mentindo.</string>
+   
+    <string name="Learn">Entenda </string>
+    <string name="learn_text1">A luz do seu celular atua como uma fonte de luz branca que emite todos os comprimentos de onda (cores) da região visível do espectro eletromagnético. Esta luz viaja através da pele no seu dedo e interage com o tecido e o sangue.</string>
+   	<string name="learn_text2">Em toda câmera, existe um filtro colorido sobre o sensor da câmera que permitirá que cada pixel individual do sensor capture luz vermelha, verde ou azul. Isso significa que é possível acessar o vermelho, verde ou azul independentemente. O padrão de filtragem é &#189; verde, &#188; vermelho e &#188; azul. A razão para ter mais verde do que vermelho e azul é para imitar a sensibilidade do olho humano às cores.</string>   
+    <string name="learn_text3">Estas figuras mostram as imagens individuais vermelha, verde e azul que a câmera captura quando seu dedo cobre o sensor. Observe que a luz vermelha penetra mais que a luz verde que, por sua vez, penetra mais que a luz azul. Isto acontece porque a interação da luz com o tecido depende do comprimento de onda (cor).</string>   
+    <string name="learn_text4">À medida que seu coração bate, a concentração de sangue varia com o tempo. Isto significa que a intensidade da luz refletida no tecido também varia com o tempo.</string>   
+    <string name="learn_text5">Um processo chamado Transformação de Fourier analisa a intensidade do sinal em função do tempo. O seu batimento cardíaco corresponde à maior frequência presente no sinal.</string>   
+    <string name="learn_text6">Finalmente, seu batimento cardíaco por segundo (ou hertz, Hz) é convertido em batimentos por minuto (BPM) multiplicando por 60.</string>
+    
+    <string name="Measure">Medição</string>
+    <string name="email_string">dados de e-mail</string>
+    <string name="btn_start_text">Começo</string>
+    <string name="btn_stop_text">Pare</string>
+	<string name="fourier_text">Transformada de Fourier</string>
+	<string name="intensity_text">Intensidade</string>
+    <string name="heart_rate_text">Batimento Cardíaco</string>
+   
+    <string name="Partners">Parceiros</string>
+	<string name="partners_text">Dedicado a aumentar a percepção da importância da Fotônica, a ciência da luz, GoPhoton! É uma iniciativa da ECOP, sigla em inglês para a aliança de Centros Europeus para Disseminação da Fotônica.</string>
+     
+    
+	<string name="English">Inglês</string>
+	<string name="Irish">Irlandês</string>
+	<string name="Dutch">Holandês</string>
+	<string name="French">Francês</string>
+	<string name="Spanish">Espanhol</string>
+	<string name="Catalan">Catalão</string>
+	<string name="German">Alemão</string>
+	<string name="Italian">Italiano</string>
+	<string name="Slovak">Eslovaco</string>
+	<string name="Portuguese">Português</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Heart Rate</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Instructions</string>
+    <string name="step_1">1. Place your finger over the camera lens. Be careful not to press down too hard since this may obstruct the blood flow in your finger.</string>
+    <string name="step_2">2. If your phone does not have a flash, it is important that you use this app in a well-lit area.</string>
+    <string name="step_3">3. Keep your finger pressed on the camera lens while your heart rate is measured.</string>
+    <string name="step_4">4. Ask your friend to ask you some questions. If you do not tell the truth, your heart rate will increase indicating that you are lying.</string>
+   
+    <string name="Learn">Learn</string>
+    <string name="learn_text1">The flash on your smart phone acts as a white light source which emits all visible wavelengths (colours). This light travels into the skin on your finger and interacts with the tissue and blood.</string>
+   	<string name="learn_text2">In every camera, there is a colour filter over the camera sensor which will allow an individual sensor pixel to capture red, green or blue light. This means that it is possible to access the red, green or blue images independently. The filter pattern is &#189; green, &#188; red and &#188; blue. The reason for more green than blue or red is to mimic the colour-sensitivity of the human eye.</string>   
+    <string name="learn_text3">These images show the individual red, green and blue images that the camera captures when your finger covers the sensor. Notice that red light will travel further in tissue away from the light source then green light, which will travel further than blue light. This is because the interaction of light with tissue depends on wavelength (colour).</string>   
+    <string name="learn_text4">As your heart beats, the concentration of blood varies with time. This means that the intensity of light reflected from the tissue varies with time also.</string>   
+    <string name="learn_text5">A method called Fourier Transformation analyses the periodic signal in the intensity. Your heart rate corresponds to the most dominant frequency present in the signal.</string>   
+    <string name="learn_text6">Finally, your heart rate in beats per second (or hertz, Hz) is converted to beats per minute (BPM) by multiplying by 60.</string>
+    
+    <string name="Measure">Measure</string>
+    <string name="email_string">Email data</string>
+    <string name="btn_start_text">Start</string>
+    <string name="btn_stop_text">Stop</string>
+	<string name="fourier_text">Fourier Transform</string>
+	<string name="intensity_text">Intensity</string>
+    <string name="heart_rate_text">Heart Rate</string>
+   
+    <string name="Partners">Partners</string>
+	<string name="partners_text">Dedicated to raising the awareness of the importance of Photonics, the science of light, GoPhoton! is an initiative of ECOP, the European Centres for Outreach in Photonics alliance.</string>
+     
+    
+	<string name="English">English</string>
+	<string name="Irish">Irish</string>
+	<string name="Dutch">Dutch</string>
+	<string name="French">French</string>
+	<string name="Spanish">Spanish</string>
+	<string name="Catalan">Catalan</string>
+	<string name="German">German</string>
+	<string name="Italian">Italian</string>
+	<string name="Slovak">Slovak</string>
+	<string name="Portuguese">Portuguese</string>
+
+</resources>

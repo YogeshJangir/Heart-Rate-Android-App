@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Herzfrequenz</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Anleitung</string>
+    <string name="step_1">1. Lege deinen Finger auf das Kameraobjektiv. Achte darauf, nur leichten Druck auszuüben, da sonst der Blutfluss beeinträchtigt wird.</string>
+    <string name="step_2">2. Falls dein Handy keinen Blitz hat, muss die Umgebung sehr hell sein.</string>
+    <string name="step_3">3. Lass deinen Finger auf dem Kameraobjektiv, während der Herzschlag gemessen wird.</string>
+    <string name="step_4">4. Lass dir während der Messung Fragen stellen. Wenn du nicht die Wahrheit sagst, wird deine Herzfrequenz vermutlich steigen und dadurch zeigen, dass du lügst.</string>
+   
+    <string name="Learn">Wie funktioniert das?</string>
+    <string name="learn_text1">Der Blitz deines Handys erzeugt weißes Licht, das aus allen sichtbaren Wellenlängen (Farben) besteht. Dieses Licht dringt durch die Haut und interagiert mit dem Gewebe und dem Blut.</string>
+   	<string name="learn_text2">In jeder Kamera ist ein Sensor und jedes Pixel hat einen Farbfilter für Rot, Grün oder Blau. Dadurch kann man den Rot-, Blau- oder Grünanteil des Bildes separat bestimmen. Die Filter sind auf &#189; Grün, &#188; Rot und &#188; Blau eingestellt. Diese Einstellungen entsprechen der Wahrnehmung unseres menschlichen Auges.</string>   
+    <string name="learn_text3">Diese unabhängigen roten, grünen und blauen Bilder sind das, was die Kamera eigentlich aufnimmt, wenn du deinen Finger auf das Objektiv hälst. Wichtig ist, dass das rote Licht verglichen zum grünen im Finger den längsten Weg zurücklegt, während das blaue Licht den kürzesten Weg benötigt. Der Grund dafür ist die unterschiedliche Interaktion der Wellenlängen (Farben) mit dem Gewebe im Finger.</string>   
+    <string name="learn_text4">Während deines Herzschlags ändert sich die Menge des Bluts im Gewebe. Das bedeutet, dass die Intensität des reflektierten Lichts sich ebenfalls mit der Zeit ändert.</string>   
+    <string name="learn_text5">Die sogenannte Fourier Transformation analysiert die periodische Änderung der Intensität. Deine Herzfrequenz entspricht der größten Frequenz, die angezeigt wird.</string>   
+    <string name="learn_text6">Da die Herzfrequenz in Schlägen pro Sekunde (Hertz [Hz]) gemessen wird, rechnet die App durch einfache Multiplikation mit dem Faktor 60 die Herzfrequenz in Schläge pro Minute um (BPM).</string>
+    
+    <string name="Measure">Messung</string>
+    <string name="email_string">e-mail</string>
+   
+    <string name="Partners">Partner</string>
+	<string name="partners_text">Entwickelt um die Bedeutung der Photonik, der Wissenschaft des Lichts, zu verdeutlichen. GoPhoton! ist eine Initiative von ECOP (European Centres for Outreach in Photonics).</string>
+	<string name="btn_start_text">Start</string>
+    <string name="btn_stop_text">Stop</string>
+	<string name="fourier_text">Fourier Transformation</string>
+	<string name="intensity_text">Intensität</string>
+    <string name="heart_rate_text">Herzfrequenz</string>
+     
+    
+	<string name="English">Englisch</string>
+	<string name="Irish">Irisch</string>
+	<string name="Dutch">Holländisch</string>
+	<string name="French">Französich</string>
+	<string name="Spanish">Spanisch</string>
+	<string name="Catalan">Katalanisch</string>
+	<string name="German">Deutsch</string>
+	<string name="Italian">Italienisch</string>
+	<string name="Slovak">Slovakisch</string>
+	<string name="Portuguese">Portugiesisch</string>
+
+</resources>

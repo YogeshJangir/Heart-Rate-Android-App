@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <!-- Linear layout within scroll view to take care of the list of instructions -->
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingRight="5dp" >
+    
+    	<!-- Learn title -->
+    	<TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+ 		android:textSize="@dimen/text_size_title" />
+    
+    	 <!-- Learn Text 1 -->
+        <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/learn_text1"
+		android:textColor="@color/white"
+		android:textSize="@dimen/text_size"
+		android:paddingBottom="10dp" />
+    	
+    	<!-- Image of Spectrum -->
+  	   <ImageView
+  	   android:layout_gravity="center"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:contentDescription="@string/dummy_string"
+       android:adjustViewBounds="true"
+       android:paddingBottom="10dp"
+       android:src="@drawable/spectrum" />   
+
+    	<!-- Learn Text 2 -->
+        <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/learn_text2"
+		android:textColor="@color/white"
+		android:textSize="@dimen/text_size"
+		android:paddingBottom="10dp" />
+
+       <!-- Image of Bayer Filter -->
+  	   <ImageView
+       android:layout_width="250dp"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"
+       android:contentDescription="@string/dummy_string"
+       android:adjustViewBounds="true"
+       android:paddingBottom="10dp"
+       android:src="@drawable/bayer_300" />   
+        
+       	<!-- Learn Text 3 -->
+        <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/learn_text3"
+		android:textColor="@color/white"
+		android:textSize="@dimen/text_size"
+		android:paddingBottom="10dp" />
+        
+       <!-- Image of RGB -->
+  	   <ImageView
+       android:layout_width="match_parent"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"
+       android:contentDescription="@string/dummy_string"
+       android:adjustViewBounds="true"
+       android:paddingBottom="10dp"
+       android:src="@drawable/rgb_images_400" />   
+       
+  	    <!-- Learn Text 4 -->
+        <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/learn_text4"
+		android:textColor="@color/white"
+		android:textSize="@dimen/text_size"
+		android:paddingBottom="10dp" />
+        
+       <!-- Image of intensity timeline -->
+  	   <ImageView
+       android:layout_width="match_parent"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"
+       android:contentDescription="@string/dummy_string"
+       android:adjustViewBounds="true"
+       android:paddingBottom="10dp"
+       android:src="@drawable/timeline_red_300" />   
+        
+        <!-- Learn Text 5 -->
+        <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/learn_text5"
+		android:textColor="@color/white"
+		android:textSize="@dimen/text_size"
+		android:paddingBottom="10dp" />
+        
+       <!-- Image of Fourier -->
+  	   <ImageView
+       android:layout_width="200dp"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"
+       android:contentDescription="@string/dummy_string"
+       android:adjustViewBounds="true"
+       android:paddingBottom="10dp"
+       android:src="@drawable/fourier_300" />
+  	   
+  	    <!-- Learn Text 6 -->
+        <TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/learn_text6"
+		android:textColor="@color/white"
+		android:textSize="@dimen/text_size"
+		android:paddingBottom="10dp" />
+        
+       <!-- Image of Equation -->
+  	   <ImageView
+       android:layout_width="200dp"
+       android:layout_gravity="center"
+       android:layout_height="wrap_content"
+       android:contentDescription="@string/dummy_string"
+       android:adjustViewBounds="true"
+       android:paddingBottom="10dp"
+       android:src="@drawable/eqn_300" />
+        
+</LinearLayout>
+</ScrollView>

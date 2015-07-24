@@ -1,0 +1,64 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+   
+    	<item
+        android:title="@string/Catalan"
+        android:id="@+id/catalan" 
+        android:checkableBehavior="single" 
+        android:visible="true" />
+    	
+    	 <item
+        android:title="@string/Dutch"
+        android:id="@+id/dutch" 
+        android:checkableBehavior="single" 
+        android:visible="true" />
+    	
+    	<item
+        android:title="@string/English"
+        android:id="@+id/english" 
+        android:checkableBehavior="single" 
+        android:visible="true" />
+    	 
+        <item
+        android:title="@string/French"
+        android:id="@+id/french" 
+        android:checkableBehavior="single" 
+        android:visible="true" />
+        
+        <item
+        android:title="@string/German"
+        android:id="@+id/german" 
+        android:checkableBehavior="single" 
+        android:visible="true" />
+        
+        <item
+        android:title="@string/Irish"
+        android:id="@+id/irish" 
+        android:checkableBehavior="single" 
+        android:visible="true" />
+        
+        <item
+        android:title="@string/Italian"
+        android:id="@+id/italian" 
+        android:checkableBehavior="single" 
+        android:visible="true" />
+           
+         <item
+        android:title="@string/Portuguese"
+        android:id="@+id/portuguese" 
+        android:checkableBehavior="single" 
+        android:visible="true" />
+                
+        <item
+        android:title="@string/Slovak"
+        android:id="@+id/slovak" 
+        android:checkableBehavior="single" 
+        android:visible="true" />
+        
+        <item
+        android:title="@string/Spanish"
+        android:id="@+id/spanish" 
+        android:checkableBehavior="single" 
+        android:visible="true" />
+
+</menu>

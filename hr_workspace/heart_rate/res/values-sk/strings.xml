@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pulz</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Návod</string>
+    <string name="step_1">1. Priložte svoj prst na šošovku kamery. Prstom veľmi netlačte na šošovku, aby nedošlo k narušeniu prietoku krvi v prste.</string>
+    <string name="step_2">2. Ak váš telefón nemá blesk, je dôležité, aby ste aplikáciu používali v dobre osvetlených priestoroch.</string>
+    <string name="step_3">3. Počas merania pulzu (srdcovej frekvencie) jemne tlačte na šošovku kamery.</string>
+    <string name="step_4">4. Požiadajte svojho priateľa, aby sa vás spýtal niekoľko otázok. Ak neodpoviete správne, zrýchlený pulz bude svedčiť o tom, že ste klamali.</string>
+   
+    <string name="Learn">Vysvetlenie</string>
+    <string name="learn_text1">Blesk na telefóne je zdroj bieleho svetla, ktorý obsahuje všetky viditeľné vlnové dĺžky (t.j. farby). Toto svetlo preniká do pokožky na prste, kde interaguje s tkanivom a krvou.</string>
+   	<string name="learn_text2">Každá kamera má pred snímacim senzorom mozaiku farebných filtrov, čo dovoľuje jednotlivým snímacím bodom senzoru snímať červené, zelené a modré svetlo. To znamená, že je možné nezávisle získať obraz v červenej, zelenej a modrej farbe. Vzor mozaiky filtrov obsahuje &#189; zelenej, &#188; červenej a &#188; modrej zložky. Väčšie zastúpenie zelenej zložky oproti zvyšným dvom zložkám simuluje farebnú citlivosť ľudského oka.</string>   
+    <string name="learn_text3">Obrázky ukazujú jednotlivé obrázky v červenej, zelenej a modrej farbe , ktoré kamera sníma keď je prst umiestnený nad senzorom. Všimnite si, že červené svetlo sa v tkanive šíri do väčšej vzdialenosti od zdroja svetla ako zelené svetlo, a to sa šíri ďalej v porovnaní s modrým svetlom. K tomuto javu dochádza preto, lebo interakcia svetla s tkanivom je závislá od vlnovej dĺžky (farby) svetla.</string>   
+    <string name="learn_text4">Ako vaše srdce bije, koncentrácia krvi sa v čase mení. To znamená, že v čase sa mení aj intenzita svetla, ktoré sa odráža z tkaniva.</string>   
+    <string name="learn_text5">Matematická metóda nazývaná Fourierova transformácia analyzuje periodicitu signálu zmien intenzity svetla. Váš pulz zodpovedá najvýraznejšej frekvenčnej zložke signálu.</string>   
+    <string name="learn_text6">Napokon sa váš pulz udávaný v tepoch za sekundu (Hertz, Hz) prevedie na počet tepov za minútu (BPM) vynásobením 60x.</string>
+    
+    <string name="Measure">Meranie</string>
+    <string name="email_string">E-mail</string>
+   
+    <string name="Partners">Partneri</string>
+	<string name="partners_text">Venované zvýšeniu povedomia o dôležitosti fotoniky - vedy o svetle. GoPhoton! je iniciatíva aliancie ECOP (the European Centres for Outreach in Photonics).</string>
+	<string name="btn_start_text">Štart</string>
+    <string name="btn_stop_text">Stop</string>
+	<string name="fourier_text">Fourierova transformácia</string>
+	<string name="intensity_text">Intenzita</string>
+    <string name="heart_rate_text">Pulz</string>
+     
+    
+	<string name="English">Angličtina</string>
+	<string name="Irish">Írčina</string>
+	<string name="Dutch">Holandčina</string>
+	<string name="French">Franczúština</string>
+	<string name="Spanish">Španielčina</string>
+	<string name="Catalan">Katalánčina</string>
+	<string name="German">Nemčina</string>
+	<string name="Italian">Taliančina</string>
+	<string name="Slovak">Slovensky</string>
+	<string name="Portuguese">Portugalčina</string>
+
+</resources>

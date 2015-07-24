@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.gophoton.heartrate"
+    android:versionCode="4" android:versionName="1.3">
+
+    
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+<application 
+    android:allowBackup="true" 
+    android:icon="@drawable/gp1_72" 
+    android:label="@string/app_name" 
+    android:theme="@style/AppTheme">
+        
+            <!-- Added an extra activity for the splash screen - Paul 19/8/14 -->  
+            <activity
+            android:name="eu.gophoton.heartrate.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+       		 </activity>
+    
+       <!-- See Tutorial #13 for details on this -->
+        <activity android:name="eu.gophoton.heartrate.MainHRActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+             <intent-filter>
+            <!--<action android:name="android.intent.action.MAIN" />-->
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+                <action android:name="eu.gophoton.heartrate.MAINHRACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+		<provider android:name="CachedFileProvider" android:authorities="eu.gophoton.provider" android:exported="true"></provider>
+        
+    </application>
+</manifest>

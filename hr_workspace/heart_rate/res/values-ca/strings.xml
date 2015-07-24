@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ritme cardíac</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Instruccions</string>
+    <string name="step_1">1. Col·loca el dit sobre la lent de la càmera. Ves amb compte no pressionis massa, doncs obstruiries el flux sanguini en el dit.</string>
+    <string name="step_2">2. Si no tens flash en el teu mòbil, és important que utilitzis aquesta aplicació en un lloc que tingui una bona il·luminació.</string>
+    <string name="step_3">3. Manté el dit sobre la càmera mentre el ritme cardíac és mesurat.</string>
+    <string name="step_4">4. Demana als teus amics que et facin preguntes. Si no dius la veritat, el teu ritme cardíac augmentarà!</string>
+   
+    <string name="Learn">Com funciona?</string>
+    <string name="learn_text1">El flash del teu mòbil funciona és una font de llum blanca que emet entotes les longituds d\'ona visibles (colors). Aquesta llum penetra la pell i interacciona amb els teixits I sang del teu dit.</string>
+   	<string name="learn_text2">En la càmera del teu mòbil hi ha un filtre sobre el sensor que fa que cada píxel sensor capturi llum verda, vermella o blava. Això vol dir que és possible accedir les imatges verdes, vermelles o blaves independentment. El patró del filtre és &#189; verd, &#188; vermell i &#188; blau. La raó de tenir més verd que vermell o blau és per imitar la sensibilitat als colors de l\'ull humà.</string>   
+    <string name="learn_text3">Aquestes imatges mostren les imatges individuals verdes, vermelles i blaves que la càmera captura quan el teu dit cobreix el sensor. És de notar que la llum vermella penetra més que la llum verda, que a la vegada penetra més que la blava. Això és així perquè la interacció de la llum amb els teixits depèn de la longitud d\'ona (colors).</string>   
+    <string name="learn_text4">Quan el teu cor batega, la concentració de sang varia amb el temps. Això significa que la intensitat de la llum reflectida pel teixit també varia amb el temps.</string>   
+    <string name="learn_text5">Un procés anomenat Transformació de Fourier analitza el senyal periòdic de la intensitat. El teu ritme cardíac és la freqüència més gran present en el senyal.</string>   
+    <string name="learn_text6">Finalment, el teu ritme cardíac en pulsacions per segon (o hertz, Hz) és convertit a pulsacions per minut (en anglès beats per minute, BPM) multiplicant per 60.</string>
+    
+    <string name="Measure">Mesura</string>
+    <string name="email_string">Envia les dades per email</string>
+   
+    <string name="Partners">Socis</string>
+	<string name="partners_text">GoPhoton! és una iniciativa de l\'aliança ECOP (European Centres for Outreach in Photonics) dedicada a donar a conèixer a la societat de la importància de la Fotònica.</string>
+	<string name="btn_start_text">Inici</string>
+    <string name="btn_stop_text">Stop</string>
+	<string name="fourier_text"></string>
+	<string name="intensity_text">Intensitat</string>
+    <string name="heart_rate_text">Ritme cardíac</string>
+     
+    
+	<string name="English">Anglès</string>
+	<string name="Irish">Irlandès</string>
+	<string name="Dutch">Holandès</string>
+	<string name="French">Francès</string>
+	<string name="Spanish">Castellà</string>
+	<string name="Catalan">Català</string>
+	<string name="German">Alemany</string>
+	<string name="Italian">Italià</string>
+	<string name="Slovak">Eslovac</string>
+	<string name="Portuguese">Portuguès</string>
+
+</resources>

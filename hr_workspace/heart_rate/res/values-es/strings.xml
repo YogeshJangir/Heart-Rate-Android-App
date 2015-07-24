@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ritmo cardíaco</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Instrucciones</string>
+    <string name="step_1">1. Coloca el dedo sobre la lente de la cámara. Cuidado no presiones demasiado, pues obstruirías el flujo sanguíneo del dedo.</string>
+    <string name="step_2">2. Si tu móvil no tiene flash, es importante que utilices esta aplicación en un sitio en el que haya buena iluminación.</string>
+    <string name="step_3">3. Mantén el dedo sobre la cámara mientras se mide el ritmo cardíaco.</string>
+    <string name="step_4">4. Pide a tus amigos que te hagan preguntas. Si no dices la verdad, ¡tu ritmo cardíaco aumentará!</string>
+   
+    <string name="Learn">¿Cómo funciona?</string>
+    <string name="learn_text1">El flash de tu móvil es una fuente de luz blanca que emite en todas las longitudes de onda visibles (colores). Esta luz penetra la piel e interacciona con los tejidos y la sangre de tu dedo.</string>
+   	<string name="learn_text2">En la cámara de tu móvil hay un filtro sobre el sensor que hace que cada píxel sensor capture la luz verde, roja o azul. Esto significa que es posible acceder de forma independiente a las imágenes verdes, rojas y azules. El patrón del filtro es &#189; verde, &#188; roja y &#188; azul. La razón de tener más verde que rojo o azul es para imitar la sensibilidad a los colores del ojo humano.</string>   
+    <string name="learn_text3">Estas imágenes muestran las imágenes individuales verdes, rojas y azules que la cámara captura cuando tu dedo cubre el sensor. Es de resaltar que la luz roja penetra en el tejido más que la luz verde, que as u vez penetra más que la azul. Esto es así porque la interacción de la luz con los tejidos depende de la longitud de onda (color) de la luz.</string>   
+    <string name="learn_text4">Cuando tu corazón late, la concentración de sangre varía con el tiempo. Esto significa que la intensidad de luz reflejada por el tejido también varía con el tiempo.</string>   
+    <string name="learn_text5">Un proceso llamado Transformación de Fourier analiza la señal periódica de la intensidad. Tu ritmo cardíaco es la frecuencia más grande presente en la señal.</string>   
+    <string name="learn_text6">Finalmente, tu ritmo cardíaco en pulsaciones por segundo (o hertz, Hz) se convierte a pulsaciones por minuto (en inglés beats per minute, BPM), multiplicando por 60.</string>
+    
+    <string name="Measure">Mide</string>
+    <string name="email_string">Envía los datos por correo electrónico</string>
+   
+    <string name="Partners">Socios</string>
+	<string name="partners_text">GoPhoton! es una iniciativa de la alianza ECOP (European Centres for Outreach in Photonics) dedicada a dar a conocer a la sociedad de la importancia de la Fotónica.</string>
+	<string name="btn_start_text">Inicio</string>
+    <string name="btn_stop_text">Stop</string>
+	<string name="fourier_text"></string>
+	<string name="intensity_text">Intensidad</string>
+    <string name="heart_rate_text">Ritmo cardíaco</string>
+     
+    
+	<string name="English">Inglés</string>
+	<string name="Irish">Irlandés</string>
+	<string name="Dutch">Holandés</string>
+	<string name="French">Francés</string>
+	<string name="Spanish">Castellano</string>
+    <string name="Catalan">Catalán</string>
+	<string name="German">Alemán</string>
+	<string name="Italian">Italiano</string>
+	<string name="Slovak">Eslovaco</string>
+	<string name="Portuguese">Portugués</string>
+
+</resources>

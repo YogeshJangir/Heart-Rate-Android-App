@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Battito cardiaco</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Istruzioni</string>
+    <string name="step_1">1. Posiziona un dito sopra l\'obiettivo della fotocamera. Presta attenzione a non premere eccessivamente, poiché ciò potrebbe ostruire il flusso di sangue nel dito.</string>
+    <string name="step_2">2. Se il tuo telefono non è dotato di un flash, è importante che tu usi questa app in un ambiente ben illuminato.</string>
+    <string name="step_3">3. Mantieni il dito premuto sull\'obiettivo della fotocamera mentre viene misurata la frequenza del tuo battito cardiaco.</string>
+    <string name="step_4">4. Chiedi a un tuo amico di farti alcune domande. Se non dirai la verità, la frequenza del tuo battito cardiaco aumenterà, indicando che stai mentendo.</string>
+   
+    <string name="Learn">Impara</string>
+    <string name="learn_text1">Il flash del tuo smartphone agisce come una sorgente di luce bianca che emette tutte le lunghezze d\'onda visibili (colori). La luce viaggia all\'interno del tuo dito e interagisce con il tessuto e con il sangue.</string>
+   	<string name="learn_text2">In ogni fotocamera c\'è una scacchiera (matrice) di filtri colorati sopra il sensore che permette ad ogni pixel di catturare la luce rossa, oppure verde o blu. Questo significa che è possibile accedere indipendentemente alle immagini rossa, verde e blu. Il filtro è costituito da una matrice di elementi &#189; dei quali sono verdi, &#188; rossi e &#188; blu. Il motivo per avere più elementi verdi che rossi o blu è simulare la sensibilità ai colori dell\'occhio umano.</string>   
+    <string name="learn_text3">Queste immagini mostrano le singole immagini rossa verde e blu che la fotocamera ha catturato quando il tuo dito copriva l\'obiettivo. Nota che la luce rossa viaggia più in profondità della luce verde, che a sua volta si spinge oltre quella blu. Questo avviene poiché l\'interazione della luce con il tessuto dipende dalla lunghezza d\'onda (colore).</string>   
+    <string name="learn_text4">Mentre il tuo cuore batte la concentrazione di sangue cambia nel tempo. Questo significa che l\'intensità della luce retrodiffusa dal tessuto cambia anch\'essa nel tempo.</string>   
+    <string name="learn_text5">Un procedimento matematico, detto Trasformata di Fourier, analizza i segnali periodici presenti nell\'intensità luminosa misurata. Il tuo battito cardiaco è il più importante segnale periodico presente nel segnale.</string>   
+    <string name="learn_text6">Alla fine, la frequenza del tuo battito cardiaco, in battiti al secondo, è convertita in battiti al minuto (BPM) moltiplicandola per 60.</string>
+    
+    <string name="Measure">Misura</string>
+    <string name="email_string">Invia i dati per e-mail</string>
+   
+    <string name="Partners">Partners</string>
+	<string name="partners_text">Dedicato ad accrescere la consapevolezza dell\'importanza della fotonica, la scienza della luce, GoPhoton! è un\'iniziativa di ECOP (European Centres for Outreach in Photonics), l\'alleanza per la promozione della fotonica in Europa.</string>
+	<string name="btn_start_text">Start</string>
+    <string name="btn_stop_text">Stop</string>
+	<string name="fourier_text">Trasformata di Fourier</string>
+	<string name="intensity_text">Intensità</string>
+    <string name="heart_rate_text">Battito cardiaco</string>
+     
+    
+	<string name="English">Inglese</string>
+	<string name="Irish">Irlandese</string>
+	<string name="Dutch">Olandese</string>
+	<string name="French">Francese</string>
+	<string name="Spanish">Spagnolo</string>
+	<string name="Catalan">Catalano</string>
+	<string name="German">Tedesco</string>
+	<string name="Italian">Italiano</string>
+	<string name="Slovak">Slovacco</string>
+	<string name="Portuguese">Portoghese</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Croíráta</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Treoracha</string>
+    <string name="step_1">1. Cuir do mhéar ar lionsa an cheamara. Ná cuir an iomarca brú ar eagla go gcuirfeadh sé seo bac ar ghluaiseacht na fola i do mhéar.</string>
+    <string name="step_2">2. Más an rud é nach bhfuil splancsholas ag do ghuthán, bí cinnte go n-úsáideann tú an aip seo in áit gheal.</string>
+    <string name="step_3">3. Coimeád do mhéar brúite anuas ar lionsa an cheamara le linn don chroíráta a bheith á thomhas.</string>
+    <string name="step_4">4. Iarr ar do chara roinnt ceisteanna a chur ort. Más rud é nach bhfuil tú ag insint na fírinne, ardóidh do chroíráta agus cuirfidh sé sin in iúl go raibh tú ag insint bréag.</string>
+   
+    <string name="Learn">Foghlaim</string>
+    <string name="learn_text1">Gníomhaíonn an splancsholas ar d\'fhón cliste mar fhoinse solais ghil a astaíonn na tonnfhaid (dathanna) go léir atá infheicthe. Téann an solas seo trí chraiceann do mhéire agus idirghníomhaíonn sé leis an bhfíochán agus leis an bhfuil.</string>
+   	<string name="learn_text2">I ngach ceamara tá scagaire dathanna thart ar bhraiteoir an cheamara agus ligeann sé sin do phicteilín aonair, atá ag feidhmiú mar bhraiteoir, solas dearg, glas nó gorm a ghabháil. Dá thoradh seo is féidir teacht ar na híomhánna dearga, glasa nó gorma ina n-aonar. An patrún scagtha atá ann ná &#189; glas, &#188; dearg agus &#188; gorm. An fáth a bhfuil níos mó glas ná gorm agus dearg ann ná chun aithris a dhéanamh ar íogaireacht shúil an duine i leith dathanna.</string>   
+    <string name="learn_text3">Taispeánann na híomhánna seo na híomhánna aonair dearga, glasa agus gorma a aimsíonn an ceamara nuair a chlúdaíonn do mhéar an braiteoir. Tabhair faoi deara go dtaistealóidh an solas dearg níos faide ón bhfoinse solais ná an solas glas, a thaistealóidh níos faide ná an solas gorm. Tá sé seo amhlaidh toisc go mbraitheann an idirghníomhaíocht idir an solas agus an fíochán ar an tonnfhad (dath).</string>   
+    <string name="learn_text4">Nuair a bhuaileann do chroí, athraíonn an cion fola ó thráth go chéile. Ciallaíonn sé seo go dtagann athrú, le himeacht aimsire freisin, ar dhéine an tsolais a fhrithchaitear ón bhfíochán.</string>   
+    <string name="learn_text5">I bpróiseas darb ainm Claochlú Fourier déantar anailís ar an gcomhartha tréimhsiúil sa déine. Is é do chroíráta an mhinicíocht is láidre atá sa chomhartha.</string>   
+    <string name="learn_text6">Ar deireadh, buaileann do chroí i mbuillí sa soicind (nó hertz, Hz). Athraítear é sin go buillí sa nóiméad nuair a iolraíonn tú faoi 60.</string>
+    
+    <string name="Measure">Tomhas</string>
+    <string name="email_string">Sonraí ríomhpost</string>
+   
+    <string name="Partners">Comhpháirtithe</string>
+	<string name="partners_text">Tá GoPhoton! ann ar mhaithe le tuiscint bhreise a chothú sa bpobal ar an tábhacht a bhaineann le Fótónaic, eolaíocht an tsolais.  Is tionscnamh é de chuid CIFFE, Comhaontas Ionaid For-rochtana Fotónaice na hEorpa.</string>
+	<string name="btn_start_text">Tosaigh</string>
+    <string name="btn_stop_text">Stop</string>
+	<string name="fourier_text">Claochlú Fourier</string>
+	<string name="intensity_text">Déine</string>
+    <string name="heart_rate_text">Croíráta</string>
+     
+    
+	<string name="English">Béarla</string>
+	<string name="Irish">Gaeilge</string>
+	<string name="Dutch">Ísiltíris</string>
+	<string name="French">Fraincis</string>
+	<string name="Spanish">Spáinnis</string>
+	<string name="Catalan">Catalóinis</string>
+	<string name="German">Gearmáinis</string>
+	<string name="Italian">Iodáilis</string>
+	<string name="Slovak">Slóvaicis</string>
+	<string name="Portuguese">Portaingéilis</string>
+
+</resources>

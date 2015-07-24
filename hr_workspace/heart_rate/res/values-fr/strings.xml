@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rythme cardiaque</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Mode d\'emploi</string>
+    <string name="step_1">1. Placez votre doigt sur la caméra en faisant attention à ne pas le presser trop fort ce qui pourrait arrêter le flux sanguin.</string>
+    <string name="step_2">2. Si votre téléphone ne possède pas de flash, placez-vous dans un lieu bien éclairé.</string>
+    <string name="step_3">3. Gardez votre doigt contre la caméra pendant toute la durée de la mesure de votre pouls.</string>
+    <string name="step_4">4. Demandez à un ami de vous poser quelques questions.  Si vous mentez, votre pouls va accélérer révélant ainsi votre mensonge.</string>
+   
+    <string name="Learn">Comprendre</string>
+    <string name="learn_text1">Le flash de votre téléphone est une source de lumière qui émet toutes les longueurs d\'onde visibles (couleurs). Cette lumière traverse la peau de votre doigt et interagit avec les tissus et le sang.</string>
+   	<string name="learn_text2">Un filtre coloré recouvre le capteur de la caméra. Il permet à chacun des pixels de n\'être sensible qu\'à la lumière rouge, ou verte ou bleue. On sépare ainsi les images rouges des vertes et des bleues. La moitié du filtre est vert, un quart est rouge et un quart bleu. Il y a plus de vert que de bleu et de rouge afin de s\'approcher au plus près de la sensibilité chromatique de l\'œil humain.</string>   
+    <string name="learn_text3">Ces figures illustrent les images rouges, vertes et bleues capturées par la caméra recouverte du doigt. Remarquez que la lumière rouge pénètre plus profondément que la verte qui, elle-même, pénètre plus que la bleue. Cette variation provient de ce que l\'interaction de la lumière avec les tissus dépend de la longueur d\'onde (couleur).</string>   
+    <string name="learn_text4">La concentration de sang dans les tissus varie durant le cycle cardiaque. L\'intensité de la lumière réfléchie par les tissus va donc dépendre du temps.</string>   
+    <string name="learn_text5">Sa périodicité est analysée par un traitement appelé transformée de Fourier. La composante fréquentielle la plus importante correspond à votre fréquence cardiaque.</string>   
+    <string name="learn_text6">Exprimée en battements par seconde (ou hertz, Hz), elle est convertie en battements par minute (BPM) en la multipliant par 60.</string>
+    
+    <string name="Measure">Mesure</string>
+    <string name="email_string">Email</string>
+   
+    <string name="Partners">Partenaires</string>
+	<string name="partners_text">GoPhoton! est une initiative de l\'alliance ECOP, "European Centres for Outreach in Photonics", ayant pour mission de sensibiliser le public à l\'importance de la photonique, la science de la lumière.</string>
+	<string name="btn_start_text">Démarrer</string>
+    <string name="btn_stop_text">Arrêtez</string>
+	<string name="fourier_text">Transformée de Fourier</string>
+	<string name="intensity_text">Intensité</string>
+    <string name="heart_rate_text">Rythme cardiaque</string>
+     
+    
+	<string name="English">Anglais</string>
+	<string name="Irish">Irlandais</string>
+	<string name="Dutch">Hollandais</string>
+	<string name="French">Français</string>
+	<string name="Spanish">Espagnol</string>
+	<string name="Catalan">Catalan</string>
+	<string name="German">Allemand</string>
+	<string name="Italian">Italien</string>
+	<string name="Slovak">Slovaque</string>
+	<string name="Portuguese">Portugais</string>
+
+</resources>

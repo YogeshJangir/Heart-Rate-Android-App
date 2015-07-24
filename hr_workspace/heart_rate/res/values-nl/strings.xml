@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hartslag</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Instructies</string>
+    <string name="step_1">1. Plaats uw vinger op de cameralens. Druk niet te hard want dit kan de doorstroming van het bloed in uw vinger belemmeren.</string>
+    <string name="step_2">2. Als uw telefoon geen flits heeft, is het belangrijk dat u deze app gebruikt in een goed verlichte ruimte.</string>
+    <string name="step_3">3. Houd uw vinger op de cameralens terwijl uw hartslag wordt gemeten.</string>
+    <string name="step_4">4. Vraag een vriend om u een aantal vragen te stellen. Als u de waarheid niet vertelt, zal uw verhoogde hartslag aangeven dat u liegt.</string>
+   
+    <string name="Learn">Leer</string>
+    <string name="learn_text1">De flits van uw smartphone fungeert als witte lichtbron die alle zichtbare golflengten (kleuren) uitzendt. Het licht gaat door de huid op uw vinger en interageert met het weefsel en het bloed.</string>
+   	<string name="learn_text2">In elke camera zit er een kleurenfilter over de camera sensor waardoor elke individuele sensor pixel rood, groen of blauw licht kan opvangen. Dit betekent dat het mogelijk is om de rode, groene en blauwe beelden afzonderlijk te gebruiken. Het filter patroon is voor de helft groen, &#188; rood en &#188; blauw. De groene kleur is meer aanwezig dan de blauwe en rode kleur om de kleurgevoeligheid van het menselijke oog na te bootsen.</string>   
+    <string name="learn_text3">Deze afbeeldingen tonen de afzonderlijke rode, groene en blauwe beelden die de camera registreert waneer uw vinger op de sensor ligt. Merk op dat het rode licht verder doordringt in het weefsel dan het groene licht, dat op zijn beurt dan weer verder doordringt dan het blauwe licht. Dit komt omdat de interactie van het licht met het weefsel afhangt van de golflengte (kleur).</string>   
+    <string name="learn_text4">Wanneer uw hart klopt, varieert de concentratie van het bloed met de tijd. Dit betekent dat de intensiteit van het gereflecteerde licht afkomstig van het weefsel ook zal variëren in de tijd.</string>   
+    <string name="learn_text5">Het Fourier transformatieproces analiseert de intensiteit van de periodieke signalen. Uw hartslag is die met de grootste frequentie aanwezig in het signaal.</string>   
+    <string name="learn_text6">Tot slot wordt uw hartslag in slagen per seconde (of Hertz, Hz) omgezet in slagen per minuut (BPM) door te vermenigvuldigen met 60.</string>
+    
+    <string name="Measure">Meten</string>
+    <string name="email_string">Email gegevens</string>
+   
+    <string name="Partners">Partners</string>
+	<string name="partners_text">Om het belang van fotonica, de wetenschap van het licht, aan te tonen, werd het project Gophoton! opgestart. Dit is een initiatief van ECOP, the European Centres for Outreach in Photonics alliance. </string>
+	<string name="btn_start_text">Start</string>
+    <string name="btn_stop_text">Stop</string>
+	<string name="fourier_text">Fourier getransformeerde</string>
+	<string name="intensity_text">Intensiteit</string>
+    <string name="heart_rate_text">Hartslag</string>
+     
+    
+	<string name="English">Engels</string>
+	<string name="Irish">Iers</string>
+	<string name="Dutch">Nederlands</string>
+	<string name="French">Frans</string>
+	<string name="Spanish">Spaans</string>
+	<string name="Catalan">Catalaanse</string>
+	<string name="German">Duits</string>
+	<string name="Italian">Italiaans</string>
+	<string name="Slovak">Slovaaks</string>
+	<string name="Portuguese">Portugees</string>
+
+</resources>

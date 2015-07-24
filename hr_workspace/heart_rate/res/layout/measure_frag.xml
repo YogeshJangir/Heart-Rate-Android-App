@@ -1,0 +1,140 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <!-- Linear layout within scroll view  -->
+	<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+     
+    
+    	<!-- This displays the camera screen -->
+    	<SurfaceView
+        android1:id="@+id/cam_preview"
+        android1:layout_width="1dip"
+        android1:layout_height="1dip" />
+
+    	<!-- Measure title -->
+    	<TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+ 		android:textSize="@dimen/text_size_title" />   
+    	
+    	
+    	<!-- Linear layout for Start Button and Reading -->
+    	<LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical"
+	    android:paddingTop="0dp"
+        android:paddingBottom="0dp">
+    	
+    	
+    	<Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="left"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/start_stop_button"
+        >
+        </Button>      
+        
+    	<!-- Text to display the Heart Rate in BPM -->
+    	<TextView
+        android:id="@+id/hr_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+ 		android:textSize="@dimen/text_size_title" />   
+ 		
+ 		</LinearLayout>
+    	
+    	<!-- Linear layout for two graphs -->
+    	<LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical"
+	    android:paddingTop="0dp"
+        android:paddingBottom="0dp">
+	        
+    	<!-- Red intensity signal -->
+    	<com.androidplot.xy.XYPlot
+	    android:id="@+id/ppgPlot"
+	    android:layout_width="150dp"
+	    android:layout_height="100dp"
+	    android:layout_weight="1"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="0dp"
+	    android:layout_marginRight="0dp"
+	    androidPlot.graphWidget.marginTop="10dp"
+        androidPlot.graphWidget.marginLeft="0dp"
+        androidPlot.graphWidget.marginBottom="0dp"
+        androidPlot.graphWidget.marginRight="10dp"
+	    title="Red signal"
+	    androidPlot.titleWidget.labelPaint.textSize="13dp"
+	    />
+		     
+		     <!-- androidPlot.title="Fourier Analysis"
+            androidPlot.domainLabel="Frequency"
+            androidPlot.rangeLabel="Magnitude" -->
+        
+        <!-- Set up the Fourier Plot -->    
+       	<com.androidplot.xy.XYPlot
+            android:id="@+id/fourierXYPlot"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+			androidPlot.titleWidget.labelPaint.textSize="13dp"
+            android:layout_weight="1"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="0dp"
+            androidPlot.graphWidget.marginTop="10dp"
+            androidPlot.graphWidget.marginLeft="0dp"
+            androidPlot.graphWidget.marginBottom="0dp"
+            androidPlot.graphWidget.marginRight="10dp"
+            androidPlot.graphWidget.rangeLabelPaint.textSize="@dimen/range_tick_label_font_size"
+            androidPlot.graphWidget.rangeOriginLabelPaint.textSize="@dimen/range_tick_label_font_size"
+            androidPlot.graphWidget.domainLabelPaint.textSize="@dimen/domain_tick_label_font_size"
+            androidPlot.graphWidget.domainOriginLabelPaint.textSize="@dimen/domain_tick_label_font_size"
+            androidPlot.legendWidget.textPaint.textSize="@dimen/legend_text_font_size"
+            androidPlot.legendWidget.iconSizeMetrics.heightMetric.value="15dp"
+            androidPlot.legendWidget.iconSizeMetrics.widthMetric.value="15dp"
+            androidPlot.legendWidget.heightMetric.value="25dp"
+            androidPlot.legendWidget.positionMetrics.anchor="right_bottom"
+            androidPlot.graphWidget.gridLinePaint.color="#000000"/>
+       	
+		</LinearLayout>
+    	
+    	
+
+    	<com.androidplot.xy.XYPlot
+	    android:id="@+id/hrHistoryPlot"
+	    android:layout_width="fill_parent"
+	    android:layout_height="220dp"
+	    android:layout_weight="1"
+	    android:layout_marginTop="10dp"
+
+	    title="PPG Signal"
+	    androidPlot.rangeLabelWidget.labelPaint.textSize="@dimen/range_label_font_size"
+    	androidPlot.titleWidget.labelPaint.textSize="@dimen/title_font_size"
+	    />
+    	
+
+
+</LinearLayout>
+</ScrollView>
